@@ -1,0 +1,30 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/releases/2025-03-20/hdo.owl> a prov:Entity;
+	 dc:title "Helmholtz Digitisation Ontology";
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-6243-1728>;
+	 dc:creator <https://orcid.org/0000-0001-6243-1728>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-7764-1517>;
+	 dc:creator <https://orcid.org/0000-0001-7764-1517>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-2818-5890>;
+	 dc:creator <https://orcid.org/0000-0002-2818-5890>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-4366-3088>;
+	 dc:creator <https://orcid.org/0000-0002-4366-3088>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-5149-603X>;
+	 dc:creator <https://orcid.org/0000-0002-5149-603X>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-6243-1728>;
+	 dc:contributor <https://orcid.org/0000-0001-6243-1728>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0001-9040-636X>;
+	 dc:contributor <https://orcid.org/0000-0001-9040-636X>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-4263-4234>;
+	 dc:contributor <https://orcid.org/0000-0002-4263-4234>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0003-0000-4784>;
+	 dc:contributor <https://orcid.org/0000-0003-0000-4784>;
+	 prov:wasAttributedTo <https://orcid.org/0009-0006-1229-4503>;
+	 dc:contributor <https://orcid.org/0009-0006-1229-4503>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://purls.helmholtz-metadaten.de/hob/hdo.owl>;
+	 prov:wasRevisionOf <https://purls.helmholtz-metadaten.de/hob/hdo/releases/2024-08-14/hdo.owl>;
+.
