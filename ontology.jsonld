@@ -1,15 +1,54 @@
 [ {
-  "@id" : "_:genid1",
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001023"
+    }, {
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006007"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+    }, {
+      "@id" : "_:genid17"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
       "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
     }, {
-      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001037"
     } ]
   } ]
 }, {
-  "@id" : "_:genid11",
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007015"
+  } ]
+}, {
+  "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
@@ -18,36 +57,36 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000118"
   } ]
 }, {
-  "@id" : "_:genid12",
+  "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
-      "@id" : "_:genid14"
+      "@id" : "_:genid28"
     } ]
   } ]
 }, {
-  "@id" : "_:genid14",
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid15"
+    "@id" : "_:genid29"
   } ]
 }, {
-  "@id" : "_:genid15",
+  "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
     }, {
-      "@id" : "_:genid17"
+      "@id" : "_:genid31"
     } ]
   } ]
 }, {
-  "@id" : "_:genid17",
+  "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
@@ -56,7 +95,35 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
   } ]
 }, {
-  "@id" : "_:genid20",
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid35"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
+    }, {
+      "@id" : "_:genid37"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
+  } ]
+}, {
+  "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -71,7 +138,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid21",
+  "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -80,7 +147,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001017"
   } ]
 }, {
-  "@id" : "_:genid22",
+  "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -89,35 +156,35 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001018"
   } ]
 }, {
-  "@id" : "_:genid23",
+  "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
-      "@id" : "_:genid25"
+      "@id" : "_:genid44"
     } ]
   } ]
 }, {
-  "@id" : "_:genid25",
+  "@id" : "_:genid44",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022"
   } ]
 }, {
-  "@id" : "_:genid27",
+  "@id" : "_:genid46",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022"
   } ]
 }, {
-  "@id" : "_:genid28",
+  "@id" : "_:genid47",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Karl-Uwe Stucky"
@@ -132,7 +199,7 @@
     "@id" : "https://orcid.org/0000-0002-0065-0762"
   } ]
 }, {
-  "@id" : "_:genid29",
+  "@id" : "_:genid48",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Ahmad Zainul Ihsan"
@@ -147,7 +214,7 @@
     "@id" : "https://orcid.org/0000-0002-1008-4530"
   } ]
 }, {
-  "@id" : "_:genid30",
+  "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Markus Kubin"
@@ -162,7 +229,7 @@
     "@id" : "https://orcid.org/0000-0002-2209-9385"
   } ]
 }, {
-  "@id" : "_:genid31",
+  "@id" : "_:genid50",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -177,7 +244,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid32",
+  "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Barbara Port"
@@ -192,7 +259,7 @@
     "@id" : "https://orcid.org/0000-0002-8941-954X"
   } ]
 }, {
-  "@id" : "_:genid33",
+  "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Oonagh Mannix"
@@ -207,7 +274,7 @@
     "@id" : "https://orcid.org/0000-0003-0575-2853"
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid53",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Thomas Jejkal"
@@ -222,7 +289,7 @@
     "@id" : "https://orcid.org/0000-0003-2804-688X"
   } ]
 }, {
-  "@id" : "_:genid35",
+  "@id" : "_:genid54",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -237,36 +304,35 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid36",
+  "@id" : "_:genid55",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
     }, {
-      "@id" : "_:genid38"
+      "@id" : "_:genid57"
     } ]
   } ]
 }, {
-  "@id" : "_:genid38",
+  "@id" : "_:genid57",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_10000047"
   } ]
 }, {
-  "@id" : "_:genid4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001023"
-    }, {
-      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006007"
-    } ]
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_10000047"
   } ]
 }, {
-  "@id" : "_:genid40",
+  "@id" : "_:genid60",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/IAO_0000136"
@@ -275,26 +341,26 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000101"
   } ]
 }, {
-  "@id" : "_:genid41",
+  "@id" : "_:genid61",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid42"
+    "@id" : "_:genid62"
   } ]
 }, {
-  "@id" : "_:genid42",
+  "@id" : "_:genid62",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
     }, {
-      "@id" : "_:genid44"
+      "@id" : "_:genid64"
     } ]
   } ]
 }, {
-  "@id" : "_:genid44",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
@@ -303,7 +369,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001060"
   } ]
 }, {
-  "@id" : "_:genid46",
+  "@id" : "_:genid66",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -318,7 +384,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid47",
+  "@id" : "_:genid67",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
@@ -327,7 +393,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007040"
   } ]
 }, {
-  "@id" : "_:genid48",
+  "@id" : "_:genid68",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -342,16 +408,26 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid49",
+  "@id" : "_:genid69",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006026"
   } ]
 }, {
-  "@id" : "_:genid50",
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
+    }, {
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -360,7 +436,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
   } ]
 }, {
-  "@id" : "_:genid51",
+  "@id" : "_:genid71",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -375,16 +451,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid52",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007003"
-  } ]
-}, {
-  "@id" : "_:genid53",
+  "@id" : "_:genid72",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
@@ -393,7 +460,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
   } ]
 }, {
-  "@id" : "_:genid54",
+  "@id" : "_:genid73",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002234"
@@ -402,7 +469,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
   } ]
 }, {
-  "@id" : "_:genid55",
+  "@id" : "_:genid74",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
@@ -411,7 +478,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001068"
   } ]
 }, {
-  "@id" : "_:genid56",
+  "@id" : "_:genid75",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
@@ -420,7 +487,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001067"
   } ]
 }, {
-  "@id" : "_:genid57",
+  "@id" : "_:genid76",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -430,7 +497,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid60",
+  "@id" : "_:genid79",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002502"
@@ -439,7 +506,7 @@
     "@id" : "http://purl.obolibrary.org/obo/IAO_0000007"
   } ]
 }, {
-  "@id" : "_:genid61",
+  "@id" : "_:genid80",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -448,7 +515,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000005"
   } ]
 }, {
-  "@id" : "_:genid62",
+  "@id" : "_:genid81",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -457,7 +524,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000029"
   } ]
 }, {
-  "@id" : "_:genid63",
+  "@id" : "_:genid82",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -466,82 +533,72 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001023"
   } ]
 }, {
-  "@id" : "_:genid64",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000118"
-  } ]
-}, {
-  "@id" : "_:genid65",
+  "@id" : "_:genid83",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
-      "@id" : "_:genid67"
+      "@id" : "_:genid85"
     } ]
   } ]
 }, {
-  "@id" : "_:genid67",
+  "@id" : "_:genid85",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005002"
   } ]
 }, {
-  "@id" : "_:genid69",
+  "@id" : "_:genid87",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005002"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006031"
   } ]
 }, {
-  "@id" : "_:genid7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
-    }, {
-      "@id" : "_:genid9"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid70",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006031"
-  } ]
-}, {
-  "@id" : "_:genid71",
+  "@id" : "_:genid89",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
-      "@id" : "_:genid73"
+      "@id" : "_:genid91"
     } ]
   } ]
 }, {
-  "@id" : "_:genid73",
+  "@id" : "_:genid91",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007003"
   } ]
 }, {
-  "@id" : "_:genid75",
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007003"
+  } ]
+}, {
+  "@id" : "_:genid94",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -556,44 +613,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid76",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
-  } ]
-}, {
-  "@id" : "_:genid77",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid78"
-  } ]
-}, {
-  "@id" : "_:genid78",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
-    }, {
-      "@id" : "_:genid80"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid80",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
-  } ]
-}, {
-  "@id" : "_:genid82",
+  "@id" : "_:genid95",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
@@ -602,7 +622,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ]
 }, {
-  "@id" : "_:genid83",
+  "@id" : "_:genid96",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
@@ -611,17 +631,391 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001036"
   } ]
 }, {
-  "@id" : "_:genid9",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000055"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007015"
-  } ]
+  "@id" : "http://protege.stanford.edu/plugins/owl/protege#defaultLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/BFO_0000001",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "Julius Caesar"
+  }, {
+    "@language" : "en",
+    "@value" : "Verdi’s Requiem"
+  }, {
+    "@language" : "en",
+    "@value" : "the Second World War"
+  }, {
+    "@language" : "en",
+    "@value" : "your body mass index"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "entity"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "continuant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region"
+  }, {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "occurrent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "a chair"
+  }, {
+    "@language" : "en",
+    "@value" : "a heart"
+  }, {
+    "@language" : "en",
+    "@value" : "a leg"
+  }, {
+    "@language" : "en",
+    "@value" : "a molecule"
+  }, {
+    "@language" : "en",
+    "@value" : "a spatial region"
+  }, {
+    "@language" : "en",
+    "@value" : "an atom"
+  }, {
+    "@language" : "en",
+    "@value" : "an orchestra."
+  }, {
+    "@language" : "en",
+    "@value" : "an organism"
+  }, {
+    "@language" : "en",
+    "@value" : "the bottom right portion of a human torso"
+  }, {
+    "@language" : "en",
+    "@value" : "the interior of your mouth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "independent continuant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "a process of cell-division, \\ a beating of the heart"
+  }, {
+    "@language" : "en",
+    "@value" : "a process of meiosis"
+  }, {
+    "@language" : "en",
+    "@value" : "a process of sleeping"
+  }, {
+    "@language" : "en",
+    "@value" : "the course of a disease"
+  }, {
+    "@language" : "en",
+    "@value" : "the flight of a bird"
+  }, {
+    "@language" : "en",
+    "@value" : "the life of an organism"
+  }, {
+    "@language" : "en",
+    "@value" : "your process of aging."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "an atom of element X has the disposition to decay to an atom of element Y"
+  }, {
+    "@language" : "en",
+    "@value" : "certain people have a predisposition to colon cancer"
+  }, {
+    "@language" : "en",
+    "@value" : "children are innately disposed to categorize objects in certain ways."
+  }, {
+    "@language" : "en",
+    "@value" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "the ambient temperature of this portion of air"
+  }, {
+    "@language" : "en",
+    "@value" : "the color of a tomato"
+  }, {
+    "@language" : "en",
+    "@value" : "the length of the circumference of your waist"
+  }, {
+    "@language" : "en",
+    "@value" : "the mass of this piece of gold."
+  }, {
+    "@language" : "en",
+    "@value" : "the shape of your nose"
+  }, {
+    "@language" : "en",
+    "@value" : "the shape of your nostril"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key"
+  }, {
+    "@language" : "en",
+    "@value" : "of one-sided specifically dependent continuants: the mass of this tomato"
+  }, {
+    "@language" : "en",
+    "@value" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates."
+  }, {
+    "@language" : "en",
+    "@value" : "the disposition of this fish to decay"
+  }, {
+    "@language" : "en",
+    "@value" : "the function of this heart: to pump blood"
+  }, {
+    "@language" : "en",
+    "@value" : "the mutual dependence of proton donors and acceptors in chemical reactions [79"
+  }, {
+    "@language" : "en",
+    "@value" : "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction"
+  }, {
+    "@language" : "en",
+    "@value" : "the pink color of a medium rare piece of grilled filet mignon at its center"
+  }, {
+    "@language" : "en",
+    "@value" : "the role of being a doctor"
+  }, {
+    "@language" : "en",
+    "@value" : "the shape of this hole."
+  }, {
+    "@language" : "en",
+    "@value" : "the smell of this portion of mozzarella"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "specifically dependent continuant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married."
+  }, {
+    "@language" : "en",
+    "@value" : "the priest role"
+  }, {
+    "@language" : "en",
+    "@value" : "the role of a boundary to demarcate two neighboring administrative territories"
+  }, {
+    "@language" : "en",
+    "@value" : "the role of a building in serving as a military target"
+  }, {
+    "@language" : "en",
+    "@value" : "the role of a stone in marking a property boundary"
+  }, {
+    "@language" : "en",
+    "@value" : "the role of subject in a clinical trial"
+  }, {
+    "@language" : "en",
+    "@value" : "the student role"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity."
+  }, {
+    "@language" : "en",
+    "@value" : "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop"
+  }, {
+    "@language" : "en",
+    "@value" : "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "generically dependent continuant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "the function of a hammer to drive in nails"
+  }, {
+    "@language" : "en",
+    "@value" : "the function of a heart pacemaker to regulate the beating of a heart through electricity"
+  }, {
+    "@language" : "en",
+    "@value" : "the function of amylase in saliva to break down starch into sugar"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: In the past, we have distinguished two varieties of function, artifactual function and biological function. These are not asserted subtypes of BFO:function however, since the same function – for example: to pump, to transport – can exist both in artifacts and in biological entities. The asserted subtypes of function that would be needed in order to yield a separate monoheirarchy are not artifactual function, biological function, etc., but rather transporting function, pumping function, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "a flame"
+  }, {
+    "@language" : "en",
+    "@value" : "a forest fire"
+  }, {
+    "@language" : "en",
+    "@value" : "a human being"
+  }, {
+    "@language" : "en",
+    "@value" : "a hurricane"
+  }, {
+    "@language" : "en",
+    "@value" : "a photon"
+  }, {
+    "@language" : "en",
+    "@value" : "a puff of smoke"
+  }, {
+    "@language" : "en",
+    "@value" : "a sea wave"
+  }, {
+    "@language" : "en",
+    "@value" : "a tornado"
+  }, {
+    "@language" : "en",
+    "@value" : "an aggregate of human beings."
+  }, {
+    "@language" : "en",
+    "@value" : "an energy wave"
+  }, {
+    "@language" : "en",
+    "@value" : "an epidemic"
+  }, {
+    "@language" : "en",
+    "@value" : "the undetached arm of a human being"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"
+  }, {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."
+  }, {
+    "@language" : "en",
+    "@value" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "material entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000004"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/BFO_0000050",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
@@ -834,39 +1228,393 @@
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/BFO_0000182",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "history"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000005",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "objective specification"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "In the protocol of a ChIP assay the objective specification says to identify protein and DNA interaction."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "2009-03-16: original definition when imported from OBI read: \"objective is an non realizable information entity which can serve as that  proper part of a plan towards which the realization of the plan is directed.\""
+  }, {
+    "@language" : "en",
+    "@value" : "2014-03-31: In the example of usage (\"In the protocol of a ChIP assay the objective specification says to identify protein and DNA interaction\") there is a protocol which is the ChIP assay protocol. In addition to being concretized on paper, the protocol can be concretized as a realizable entity, such as a plan that inheres in a person. The objective specification is the part that says that some protein and DNA interactions are identified. This is a specification of a process endpoint: the boundary in the process before which they are not identified and after which they are. During the realization of the plan, the goal is to get to the point of having the interactions, and participants in the realization of the plan try to do that."
+  }, {
+    "@language" : "en",
+    "@value" : "Answers the question, why did you do this experiment?"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON: Alan Ruttenberg"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON: Barry Smith"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON: Bjoern Peters"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON: Jennifer Fostel"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@language" : "en",
+    "@value" : "goal specification"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "OBI Plan and Planned Process/Roles Branch"
+  }, {
+    "@language" : "en",
+    "@value" : "OBI_0000217"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "objective specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000006",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "narrative object"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "Examples of narrative objects are reports, journal  articles, and patents submission."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A narrative object is an information content entity that is a set of propositions."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by 'textual entity' and 'figure'. Alan restored as there are OBI dependencies and this merits further discussion"
+  }, {
+    "@language" : "en",
+    "@value" : "agree - DENRIE. Issue(alan) do we only mean text? What about a story told by mime. Does music count? (no) what about an oral report. Regarding definition, saying it is a set of propositions means we loose the idea that wording matters. Maybe adjust saying a narrative object has some relationshop to a set of propositions"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "person:Chris Stoeckert"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "OBI_0000013"
+  }, {
+    "@language" : "en",
+    "@value" : "group:OBI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "narrative object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000007",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "Pour the contents of flask 1 into flask 2"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A directive information entity that describes an action the bearer will take."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "OBI Plan and Planned Process branch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "action specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "information content entity"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "Examples of information content entites include journal articles, data, graphical layouts, and graphs."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A generically dependent continuant that is about some thing."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)."
+  }, {
+    "@language" : "en",
+    "@value" : "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).\n\nPrevious. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON: Chris Stoeckert"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "OBI_0000142"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "information content entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000033",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An information content entity whose concretizations indicate to their bearer how to realize them in a process."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "2009-03-16: provenance: a term realizable information entity was proposed for OBI (OBI_0000337) , edited by the PlanAndPlannedProcess branch. Original definition was  \"is the specification of a process that can be concretized and realized by an actor\" with alternative term  \"instruction\".It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term."
+  }, {
+    "@language" : "en",
+    "@value" : "2013-05-30 Alan Ruttenberg: What differentiates a directive information entity from an information concretization is that it can have concretizations that are either qualities or realizable entities. The concretizations that are realizable entities are created when an individual chooses to take up the direction, i.e. has the intention to (try to) realize it."
+  }, {
+    "@language" : "en",
+    "@value" : "8/6/2009 Alan Ruttenberg: Changed label from \"information entity about a realizable\" after discussions at ICBO"
+  }, {
+    "@language" : "en",
+    "@value" : "Werner pushed back on calling it realizable information entity as it isn't realizable. However this name isn't right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn't about the plan, it, once concretized, *is* the plan. -Alan"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON: Alan Ruttenberg"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON: Bjoern Peters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "directive information entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
+  } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000104",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "plan specification"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "PMID: 18323827.Nat Med. 2008 Mar;14(3):226.New plan proposed to help resolve conflicting medical advice."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was \" a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan\". It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term."
+  }, {
+    "@language" : "en",
+    "@value" : "2014-03-31: A plan specification can have other parts, such as conditional specifications."
+  }, {
+    "@language" : "en",
+    "@value" : "2022-01-16 Updated definition to that proposed by Clint Dowloand, IAO Issue 231."
+  }, {
+    "@language" : "en",
+    "@value" : "Alternative previous definition: a plan is a set of instructions that specify how an objective should be achieved"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Alan Ruttenberg"
+  }, {
+    "@language" : "en",
+    "@value" : "Clint Dowland"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "OBI Plan and Planned Process branch"
+  }, {
+    "@language" : "en",
+    "@value" : "OBI_0000344"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "plan specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
+  } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002010"
   } ]
 }, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "editor preferred term"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Daniel Schober"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "editor preferred term"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "example of usage"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Daniel Schober"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "example of usage"
+  } ]
+}, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000114",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "has curation status"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Alan Ruttenberg"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON:Bill Bug"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON:Melanie Courtot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has curation status"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "definition"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Daniel Schober"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "definition"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000116",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
@@ -897,26 +1645,305 @@
     "@value" : "editor note"
   } ]
 }, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "term editor"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Daniel Schober"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "term editor"
+  } ]
+}, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000118",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "alternative label"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Daniel Schober"
+  }, {
+    "@value" : "OBO Operations committee"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "alternative label"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "definition source"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000122"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Daniel Schober"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+  }, {
+    "@language" : "en",
+    "@value" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "definition source"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "ready for release"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ready for release"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "pending final vetting"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pending final vetting"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000136",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "This document is about information artifacts and their representations"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A (currently) primitive relation that relates an information artifact to an entity."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "person:Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is about"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000231",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "has obsolescence reason"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Relates an annotation property to an obsolescence reason. The values of obsolescence reasons come from a list of predefined terms, instances of the class obsolescence reason specification."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "PERSON:Alan Ruttenberg"
+  }, {
+    "@language" : "en",
+    "@value" : "PERSON:Melanie Courtot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has obsolescence reason"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000233",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "term tracker item"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An IRI or similar locator for a request or discussion of an ontology term."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "term tracker item"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000424",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "expand expression to"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "ObjectProperty: RO_0002104\nLabel: has plasma membrane part\nAnnotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.org/obo/owl/GO#GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"\n"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A macro expansion tag applied to an object property (or possibly a data property)  which can be used by a macro-expansion engine to generate more complex expressions from simpler ones"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Chris Mungall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "expand expression to"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000428",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "requires discussion"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "group:OBI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "requires discussion"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0000600",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "elucidation"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "person:Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Person:Barry Smith"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000600" : [ {
+    "@language" : "en",
+    "@value" : "Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "elucidation"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "term replaced by"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Use on obsolete terms, relating the term to another term that can be used as a substitute"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@language" : "en",
+    "@value" : "Person:Alan Ruttenberg"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@language" : "en",
+    "@value" : "Person:Alan Ruttenberg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "term replaced by"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/OMO_0003000",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
@@ -975,22 +2002,181 @@
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0000053",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "bearer of"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "this apple is bearer of this red color"
+  }, {
+    "@language" : "en",
+    "@value" : "this vase is bearer of this fragility"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Inverse of characteristic_of"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@language" : "en",
+    "@value" : "bearer_of"
+  }, {
+    "@language" : "en",
+    "@value" : "is bearer of"
+  } ],
+  "http://purl.obolibrary.org/obo/RO_0001900" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001901"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has characteristic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0000056",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "participates in"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "this blood clot participates in this blood coagulation"
+  }, {
+    "@language" : "en",
+    "@value" : "this input material (or this output material) participates in this process"
+  }, {
+    "@language" : "en",
+    "@value" : "this investigator participates in this investigation"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "a relation between a continuant and a process, in which the continuant is somehow involved in the process"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@language" : "en",
+    "@value" : "participates_in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "participates in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0000057",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000111" : [ {
+    "@language" : "en",
+    "@value" : "has participant"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "this blood coagulation has participant this blood clot"
+  }, {
+    "@language" : "en",
+    "@value" : "this investigation has participant this investigator"
+  }, {
+    "@language" : "en",
+    "@value" : "this process has participant this input material (or this output material)"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "a relation between a process and a continuant, in which the continuant is somehow involved in the process"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@language" : "en",
+    "@value" : "has_participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+    } ]
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0000086",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@language" : "en",
+    "@value" : "this apple has quality this red color"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@language" : "en",
+    "@value" : "has_quality"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
-  } ]
-}, {
-  "@id" : "http://purl.obolibrary.org/obo/RO_0000087",
-  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000053"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0001900",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "temporal interpretation"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0001901",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "## Elucidation\n\nThis is used when the statement/axiom is assumed to hold true &apos;eternally&apos;\n\n## How to interpret (informal)\n\nFirst the &quot;atemporal&quot; FOL is derived from the OWL using the standard\ninterpretation. This axiom is temporalized by embedding the axiom\nwithin a for-all-times quantified sentence. The t argument is added to\nall instantiation predicates and predicates that use this relation.\n\n## Example\n\n    Class: nucleus\n    SubClassOf: part_of some cell\n\n    forall t :\n      forall n :\n        instance_of(n,Nucleus,t)\n         implies\n        exists c :\n          instance_of(c,Cell,t)\n          part_of(n,c,t)\n\n## Notes\n\nThis interpretation is *not* the same as an at-all-times relation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "axiom holds for all times"
+  } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0002131",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
@@ -1019,36 +2205,354 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002323"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002131"
+    } ]
+  }, {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002131"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002176",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@value" : "The M8 connects Glasgow and Edinburgh"
+  }, {
+    "@value" : "a 'toe distal phalanx bone' that is connected to a 'toe medial phalanx bone' (an interphalangeal joint *connects* these two bones)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://www.ncbi.nlm.nih.gov/pubmed/22293552"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000004"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "connects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002323"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0002233",
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
-  } ]
-}, {
-  "@id" : "http://purl.obolibrary.org/obo/RO_0002234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@value" : "consumes"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_go_ontology"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_gocam"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has input"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid1"
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002352"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@value" : "produces"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_go_ontology"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_gocam"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has output"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002259",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002323",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A mereological relationship or a topological relationship"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://purl.obolibrary.org/obo/RO_0001900" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0001901"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mereotopologically related to"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0002327",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@value" : "a particular instances of akt-2 enables some instance of protein kinase activity"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "c enables p iff c is capable of p and c acts to execute p."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000118" : [ {
+    "@value" : "catalyzes"
+  }, {
+    "@value" : "executes"
+  }, {
+    "@value" : "has"
+  }, {
+    "@value" : "is catalyzing"
+  }, {
+    "@value" : "is executing"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_go_gp2term"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002012"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "enables"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002327"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002352",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "inverse of has input"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002259"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "input of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002353",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "inverse of has output"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002259"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "output of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002502",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "depends on"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002566",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
+    "@id" : "https://orcid.org/0000-0002-6601-2165"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-4639-4431"
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000119" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ro/docs/causal-relations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "causally influences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002592",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "results in organization of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0002615",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Inverse of is-model-of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has model"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/RO_0004008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/valid_for_go_ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has primary output"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002234"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/RO_0040042",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
+    "@value" : "part-of is homeomorphic for independent continuants."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "R is homemorphic for C iff (1) there exists some x,y such that x R y, and x and y instantiate C and (2) for all x, if x is an instance of C, and there exists some y some such that x R y, then it follows that y is an instance of C."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is homeomorphic for"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/ro/subsets#ro-eco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/valid_for_go_ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/valid_for_gocam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty"
+  } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/contributor",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/contributor",
@@ -1077,6 +2581,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "title"
   } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -1108,9 +2615,6 @@
   "@id" : "http://www.w3.org/2001/XMLSchema#date",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
-  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1119,6 +2623,32 @@
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#note",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/mbox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://hdl.handle.net/21.T11148/b9b76f887845e32d29f7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A persistent identifier kernel information profile which structures the metadata deemed to be essential for the purpose of describing and exchanging data within the Helmholtz Association."
+  }, {
+    "@language" : "de",
+    "@value" : "Das Informationsprofil eines persistenten Identifiers, welches die für einen Metadaten strukturiert die für die Beschreibung und den Austausch von Daten innerhalb der Helmholtz Gemeinschaft als essentiell eingestuft werden."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000035"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Helmholtz Kernel Information Profil"
+  }, {
+    "@language" : "en",
+    "@value" : "Helmholtz Kernel Information Profile"
+  } ]
 }, {
   "@id" : "https://orcid.org/0000-0001-6243-1728",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -1380,9 +2910,9 @@
     "@value" : "data source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid7"
+    "@id" : "_:genid21"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000005",
@@ -1413,7 +2943,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001037"
   }, {
-    "@id" : "_:genid11"
+    "@id" : "_:genid25"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000006",
@@ -1481,6 +3011,8 @@
     "@value" : "data type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
@@ -1579,9 +3111,11 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  }, {
+    "@id" : "_:genid34"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid12"
+    "@id" : "_:genid26"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -1691,9 +3225,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001049"
   }, {
-    "@id" : "_:genid21"
+    "@id" : "_:genid40"
   }, {
-    "@id" : "_:genid22"
+    "@id" : "_:genid41"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013",
@@ -2285,13 +3819,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid27"
+    "@id" : "_:genid46"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005003"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid23"
+    "@id" : "_:genid42"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -2715,10 +4249,10 @@
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
     "@language" : "en",
-    "@value" : "A schema which describes the structure of a persistent identifier record."
+    "@value" : "An information profile which describes the structure of a persistent identifier record."
   }, {
     "@language" : "de",
-    "@value" : "Ein Schema, das die Struktur eines Persistent Identifier Records beschreibt. "
+    "@value" : "Ein Informationsprofil, das die Struktur eines Persistent Identifier Records beschreibt."
   } ],
   "http://purl.obolibrary.org/obo/OMO_0003000" : [ {
     "@language" : "de",
@@ -2734,7 +4268,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Both The Research Data Alliance (RDA) and the European Open Science Cloud (EOSC) Executive Board provide definitions only for a PID kernel information profile. We note that the creation and maintenance of PID information profiles is a community-centric effort. The challenge is to ensure that profiles generated by communities are recognised and parseable by repositories (or external tools). Profiles that are both recognised and well-implemented will support automated validation and indexing of PID records, allowing a wide range of operations to be performed on the metadata discovered through persistent identifiers. For HMC and other consortia, careful curation and registration of such profiles are strongly recommended, as well as efforts to encourage reuse."
+    "@value" : "Both The Research Data Alliance (RDA) and the European Open Science Cloud (EOSC) Executive Board provide definitions only for a PID kernel information profile. We note that the creation and maintenance of PID information profiles is a community-centric effort. The challenge is to ensure that profiles generated by communities are recognised and parseable by repositories (or external tools). Profiles that are both recognised and well-implemented will support automated validation and indexing of PID records, allowing a wide range of operations to be performed on the metadata discovered through persistent identifiers. For HMC and other consortia, careful curation and registration of such profiles are strongly recommended, as well as efforts to encourage reuse.\n\nNote that there is significant overlap with the class HDO_00000035 \"persistent identifier kernel information profile\" whose only difference to the current class is that information is deemed essential. Thus in practice individuals might be asserted to and of the two classes depending on how strict they are."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -2744,7 +4278,9 @@
     "@value" : "persistent identifier information profile"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000040"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001036"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006084"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -2761,10 +4297,10 @@
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
     "@language" : "en",
-    "@value" : "A persistent identifier information profile which only structures the metadata deemed to be essential for a given purpose."
+    "@value" : "A kernel information profile which is associated with a persistent identifier."
   }, {
     "@language" : "de",
-    "@value" : "Das Informationsprofil eines persistenten Identifiers, welches die für einen bestimmten Vorgang als essentiell eingestuften Metadaten strukturiert."
+    "@value" : "Das Kernelinformationsprofil welches mit einem persistenten Identifiers verbunden ist."
   } ],
   "http://purl.obolibrary.org/obo/OMO_0003000" : [ {
     "@language" : "de",
@@ -2776,6 +4312,9 @@
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@id" : "https://orcid.org/0000-0003-4322-180X"
   } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym" : [ {
+    "@value" : "Kernel Information Profile"
+  } ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
     "@id" : "https://www.rd-alliance.org/system/files/RDA%20Recommendation%20on%20PID%20Kernel%20Information_final.pdf"
   } ],
@@ -2785,7 +4324,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This definition is intentionally generic and broad - what is considered \"core\" information can vary dramatically based on application contexts and stakeholder groups. Subclasses and instances of this class can be created for particular purposes."
+    "@value" : "We note that the term kernel information profile could in principle be used independently of the PID concept. In practice the term is mostly used in the context of records connected to persistent identifiers however, it is inserted as a broad synonym here rather than being a separate class higher in the hierarchy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -2795,7 +4334,7 @@
     "@value" : "persistent identifier kernel information profile"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000034"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006085"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -3031,6 +4570,8 @@
     "@value" : "schema"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
@@ -3506,10 +5047,12 @@
     "@value" : "unit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+  }, {
+    "@id" : "_:genid59"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid36"
+    "@id" : "_:genid55"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000102",
@@ -3819,9 +5362,11 @@
     "@value" : "unit information"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   }, {
-    "@id" : "_:genid40"
+    "@id" : "_:genid60"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000112",
@@ -3862,7 +5407,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
   }, {
-    "@id" : "_:genid41"
+    "@id" : "_:genid61"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -3954,6 +5499,8 @@
     "@value" : "data format"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ]
 }, {
@@ -4210,6 +5757,8 @@
     "@value" : "standard specification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
@@ -4409,9 +5958,11 @@
     "@value" : "specification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   }, {
-    "@id" : "_:genid47"
+    "@id" : "_:genid67"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -4982,7 +6533,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid49"
+    "@id" : "_:genid69"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -5897,6 +7448,9 @@
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
     "@id" : "https://www.sciencedirect.com/topics/computer-science/metadata-schema"
   } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "information proile"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A metadata schema is used to (pre-)define the structure of metadata. For example, the arrangement of fields in a BibTex template constitutes a metadata schema to be used by a reference management system. Note that the term \"metadata standard\" is not a exact synonym of \"metadata schema\", even though these terms are often used interchangeably. Not all schemata are standardised and not all metadata standards are schemata, however one could have a standard metadata schema. "
@@ -5917,6 +7471,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000040"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006084"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -5991,7 +7548,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid50"
+    "@id" : "_:genid70"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -6473,6 +8030,8 @@
     "@value" : "programming language"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
@@ -6915,8 +8474,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
-  }, {
-    "@id" : "_:genid52"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001061",
@@ -6949,9 +8506,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid53"
+    "@id" : "_:genid72"
   }, {
-    "@id" : "_:genid54"
+    "@id" : "_:genid73"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001066",
@@ -7018,7 +8575,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001066"
   }, {
-    "@id" : "_:genid55"
+    "@id" : "_:genid74"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001068",
@@ -7051,7 +8608,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid56"
+    "@id" : "_:genid75"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001069",
@@ -7082,7 +8639,7 @@
     "@value" : "simulation data"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid57"
+    "@id" : "_:genid76"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001070",
@@ -7173,10 +8730,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid60"
-  } ],
-  "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@value" : "http://purl.obolibrary.org/obo/OBI_0001173"
+    "@id" : "_:genid79"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001073",
@@ -7323,11 +8877,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001017"
   }, {
-    "@id" : "_:genid61"
+    "@id" : "_:genid80"
   }, {
-    "@id" : "_:genid62"
+    "@id" : "_:genid81"
   }, {
-    "@id" : "_:genid63"
+    "@id" : "_:genid82"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001078",
@@ -7351,6 +8905,8 @@
     "@value" : "file format"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ]
 }, {
@@ -7516,8 +9072,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002008"
-  }, {
-    "@id" : "_:genid64"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -7859,6 +9413,8 @@
     "@value" : "data management plan"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000104"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002010"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
@@ -7913,6 +9469,8 @@
     "@value" : "plan specification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
@@ -8019,6 +9577,8 @@
     "@value" : "license information"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
@@ -8592,6 +10152,8 @@
     "@value" : "https://www.ebi.ac.uk/ols/ontologies/prov"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
@@ -9196,9 +10758,11 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  }, {
+    "@id" : "_:genid87"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid65"
+    "@id" : "_:genid83"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -9244,10 +10808,10 @@
     "@value" : "JSON is a language-independent data format that facilitates data storage and exchange based on a human-readable format. It was derived from JavaScript, but many modern programming languages include code to generate and parse JSON-format data. JSON filenames use the extension .json. JSON Schema specifies a JSON-based format to define the structure of JSON data to validate JSON files. This could be an instance rather than a class during implementation in OWL."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "JSON"
-  }, {
     "@language" : "de",
+    "@value" : "JavaScript Object Notation"
+  }, {
+    "@language" : "en",
     "@value" : "JavaScript Object Notation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -9989,6 +11553,8 @@
     "@value" : "data type information"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   } ]
 }, {
@@ -10103,9 +11669,9 @@
     "@value" : "data store"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid69"
+    "@id" : "_:genid88"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006031",
@@ -10154,8 +11720,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
-  }, {
-    "@id" : "_:genid70"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006033",
@@ -10197,7 +11761,8 @@
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
-    "@value" : "This relation is equivalent to ro:hasRole but it has a broader domain than RO's because it is used in HDO in a wider context."
+    "@language" : "en",
+    "@value" : "This relation is similar to ro:hasRole but it has a broader domain than RO's because it is used in HDO in a wider context."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
@@ -10240,7 +11805,7 @@
     "@value" : "communicates with"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid4"
+    "@id" : "_:genid12"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006040",
@@ -10535,6 +12100,353 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006063"
   } ]
 }, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006065",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a FAIR digital object to a persistent identifier kernel information profile that provides the structure of FDO."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000018"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "follows kernel information profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000035"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006066",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a digital object to the access protocol information that a client can use to access this object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital object location access protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006073"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006067",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a digital object to another digital object that describes object access and modification policies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital object policy"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006068",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that describes one or more topics that a digital object is about."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is about topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006069",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A relation that relates an entity to a digital object that contains metadatata about this entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has metadata"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006070"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006070",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a digital object that contains data about an entity to that entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is metadata for"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006072",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A digital repository which is used to define and describe data types in an arbitrary granularity and to assign persistent identifiers to these types."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein digitales Repository, welches dazu verwendet wird Datentypen in beliebiger Granularität zu definieren und zu beschreiben und diesen Typen persistente Identifikatoren zuzuweisen."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "https://helmholtz-metadaten.de/storage/471/UseCase-Flyer_DTR.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Registry für Datentypen"
+  }, {
+    "@language" : "en",
+    "@value" : "data type registry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000108"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006073",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A specification which defines the rules for accessing and interacting with objects in a digital environment."
+  }, {
+    "@language" : "de",
+    "@value" : "Eine Spezifikation, die die Regeln für den Zugriff und die Interaktion mit digitalen Objekten in deren Umgebung definiert."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Access-Protokoll"
+  }, {
+    "@language" : "en",
+    "@value" : "access protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006074",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "This relation relates an information content entity, data or data set to a FAIR digital object it represents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The domain of this property is restricted to the union of \"data\", \"data set, and \"information content entity\" based on theoretical predictions. We intend to be as restrictive as possible for reasons of consistency. If the range meets requirements in practice and should be evaluated once put to use. In that case, the domain might be widened, e.g., to \"generically dependent continuant\" or \"entity\" in the future."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is represented as FDO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000018"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006075",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a digital object to another digital object that contains provenance data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has provenance graph"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006076",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "The date in ISO 8601 format, when an entity is planned to be publicly accessible or was made publicly accessible."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "underEmbargoUntil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006077",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Checksum of data"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "checksum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006078",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A cryptographic signature of some data in a specified format."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "signature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006079",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A web-resolvable pointer to a preview, e.g., a low-resolution image, of some data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "locationPreview"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006080",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a digital object to a data type which is registered in a data type registry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital object type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000007"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006081",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a data type to the registry where it is registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000007"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is registered in data type registry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006072"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006082"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006082",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a generically dependent continuant to the system where it is registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is registered in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001049"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006084",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A schema which describes the structure of a metadata record of a digital resource."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Schema welches die Struktur von Metadateneinträgen einer digitalen resource beschreibt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Informationsprofil"
+  }, {
+    "@language" : "en",
+    "@value" : "information profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000040"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006085",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An information profile which only structures the metadata deemed to be essential for a given purpose."
+  }, {
+    "@language" : "de",
+    "@value" : "Ein Informationsprofil, welches die für einen bestimmten Vorgang als essentiell eingestuften Metadaten strukturiert."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This definition is intentionally generic and broad - what is considered \"core\" information can vary dramatically based on application contexts and stakeholder groups. Subclasses and instances of this class can be created for particular purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kernel Informationsprofil"
+  }, {
+    "@language" : "en",
+    "@value" : "kernel information profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001036"
+  }, {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006084"
+  } ]
+}, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007001",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
@@ -10691,9 +12603,11 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+  }, {
+    "@id" : "_:genid93"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid71"
+    "@id" : "_:genid89"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007005",
@@ -10908,8 +12822,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
-  }, {
-    "@id" : "_:genid76"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022",
@@ -10950,8 +12862,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
-  }, {
-    "@id" : "_:genid77"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -11045,6 +12955,8 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000005"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+  }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
   } ]
 }, {
@@ -11414,7 +13326,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid82"
+    "@id" : "_:genid95"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007041",
@@ -11447,7 +13359,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007040"
   }, {
-    "@id" : "_:genid83"
+    "@id" : "_:genid96"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007042",
@@ -11839,7 +13751,7 @@
     "@value" : "Eine Rolle, die einer Entität innewohnt und realisiert wird, wenn die Größe mindestens einer ihrer Eigenschaften als Referenz verwendet wird, um die Größe der gleichen Eigenschaft oder Eigenschaften anderer Entitäten auszudrücken."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
-    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit  "
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
   }, {
     "@id" : "https://doi.org/10.1351/goldbook"
   }, {
@@ -11910,12 +13822,11 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Helmholtz Digitisation Ontology"
   } ],
-  "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/imports/bfo_import.owl"
-  }, {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/imports/iao_import.owl"
-  }, {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/imports/ro_import.owl"
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/releases/2025-03-20/hdo.owl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "2025-03-20"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo.owl#triple_specification",
