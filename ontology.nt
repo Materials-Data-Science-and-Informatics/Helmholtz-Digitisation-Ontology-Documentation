@@ -1,20 +1,21 @@
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://www.w3.org/2002/07/owl#versionIRI> <https://purls.helmholtz-metadaten.de/hob/hdo/releases/2025-03-20/hdo.owl> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.obolibrary.org/obo/IAO_0000116> "Main contributors to the HDO development are credited as dce:contributor in the ontology metadata. In addition, micro-contributions (to the definition of a specific term) by people that are not main contributors are credited as dce:contributor at the term-level."@en .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-6243-1728> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-9040-636X> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0002-4263-4234> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0003-0000-4784> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0009-0006-1229-4503> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6243-1728> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-7764-1517> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2818-5890> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-4366-3088> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5149-603X> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/terms/description> "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)."@en .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://purl.org/dc/terms/title> "Helmholtz Digitisation Ontology" .
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> <http://www.w3.org/2002/07/owl#versionInfo> "2025-03-20" .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://www.w3.org/2002/07/owl#versionIRI> <https://purls.helmholtz-metadaten.de/hob/hdo/releases/2026-09-28/hdo-full.owl> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.obolibrary.org/obo/IAO_0000116> "Main contributors to the HDO development are credited as dce:contributor in the ontology metadata. In addition, micro-contributions (to the definition of a specific term) by people that are not main contributors are credited as dce:contributor at the term-level."@en .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-6243-1728> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-7764-1517> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-9040-636X> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0002-4263-4234> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0002-4366-3088> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0003-0000-4784> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0003-3248-0056> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0009-0006-1229-4503> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2818-5890> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-5149-603X> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-2804-688X> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/terms/description> "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)."@en .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://purl.org/dc/terms/title> "Helmholtz Digitisation Ontology" .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> <http://www.w3.org/2002/07/owl#versionInfo> "2026-09-28" .
 # 
 # 
 # #################################################################
@@ -58,7 +59,7 @@
 <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000111> "definition"@en .
 <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
 <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en .
-<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000116> "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "@en .
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000116> "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."@en .
 <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON:Daniel Schober"@en .
 <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en .
 <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "definition"@en .
@@ -107,9 +108,9 @@
 # http://purl.obolibrary.org/obo/IAO_0000233
 <http://purl.obolibrary.org/obo/IAO_0000233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000111> "term tracker item"@en .
-<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000112> "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"@en .
+<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000112> "the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588"@en .
 <http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
-<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000115> "An IRI or similar locator for a request or discussion of an ontology term."@en .
+<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000115> "A URL for a request or discussion of an ontology term."@en .
 <http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000117> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en .
 <http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/IAO_0000119> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en .
 <http://purl.obolibrary.org/obo/IAO_0000233> <http://www.w3.org/2000/01/rdf-schema#label> "term tracker item"@en .
@@ -217,6 +218,9 @@
 # http://purl.org/dc/terms/created
 <http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -261,9 +265,18 @@
 # 
 # http://www.w3.org/2004/02/skos/core#altLabel
 <http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#label> "alternative label"@en .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2004/02/skos/core#definition> "An alternative lexical label for a resource."@en .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/2000/01/rdf-schema#label> "definition"@en .
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/2004/02/skos/core#definition> "A statement or formal explanation of the meaning of a concept."@en .
 # 
 # http://www.w3.org/2004/02/skos/core#note
 <http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/2000/01/rdf-schema#label> "note"@en .
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/2004/02/skos/core#definition> "A general note, for any purpose."@en .
 # 
 # http://xmlns.com/foaf/0.1/homepage
 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -548,7 +561,6 @@ _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> .
 <http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/IAO_0000118> "catalyzes" .
 <http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/IAO_0000118> "executes" .
-<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/IAO_0000118> "has" .
 <http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/IAO_0000118> "is catalyzing" .
 <http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/IAO_0000118> "is executing" .
 <http://purl.obolibrary.org/obo/RO_0002327> <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_gp2term> .
@@ -833,7 +845,7 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00006068
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006068> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purls.helmholtz-metadaten.de/hob/HDO_00000013> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00006068> <http://www.w3.org/2000/01/rdf-schema#range> <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006068> <http://www.w3.org/2000/01/rdf-schema#range> <https://purls.helmholtz-metadaten.de/hob/HDO_00006088> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006068> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that describes one or more topics that a digital object is about."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006068> <http://www.w3.org/2000/01/rdf-schema#label> "is about topic"@en .
 # 
@@ -849,6 +861,14 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006070> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/BFO_0000001> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006070> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that relates a digital object that contains data about an entity to that entity."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006070> <http://www.w3.org/2000/01/rdf-schema#label> "Is metadata for"@en .
+# 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006071
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purls.helmholtz-metadaten.de/hob/HDO_00000013> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> <http://www.w3.org/2000/01/rdf-schema#range> <https://purls.helmholtz-metadaten.de/hob/HDO_00002011> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that relates a digital object to the license that applies to the content of the Digital Object represented by the FDO, distinguishing it from the license of the FDO metadata itself."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> <http://www.w3.org/2000/01/rdf-schema#comment> "License here does not govern the metadata record (the FDO itself), but applies to the content of the Digital Object rather than the metadata."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> <http://www.w3.org/2000/01/rdf-schema#label> "has digital object license"@en .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00006074
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -903,6 +923,22 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006082> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that relates a generically dependent continuant to the system where it is registered."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006082> <http://www.w3.org/2000/01/rdf-schema#label> "is registered in"@en .
 # 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006089
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that specifies a topic (from a controlled vocabulary) that a digital object is related to."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation which specifies a topic (from a controlled vocabulary) that a digital object is related to."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation which specifies that an entity is part of a group of entities."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation which specifies that an entity is part of another entity or a set of entites."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> <http://www.w3.org/2000/01/rdf-schema#label> "is member of"@en .
+# 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006090
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00006089> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> <http://www.w3.org/2000/01/rdf-schema#range> <https://purls.helmholtz-metadaten.de/hob/HDO_00002008> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> <http://purl.obolibrary.org/obo/IAO_0000115> "A relation which specifies the topic which  belongs to a controlled vocabulary and represents the subject matter of a FAIR digital object."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation is introduced to specify the topic that a digital object is about."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> <http://www.w3.org/2000/01/rdf-schema#label> "is member of Vocabulary"@en .
+# 
 # 
 # 
 # #################################################################
@@ -939,6 +975,38 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006079> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006079> <http://purl.obolibrary.org/obo/IAO_0000115> "A web-resolvable pointer to a preview, e.g., a low-resolution image, of some data."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006079> <http://www.w3.org/2000/01/rdf-schema#label> "locationPreview"@en .
+# 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006083
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00006077> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purls.helmholtz-metadaten.de/hob/HDO_00000018> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> <http://purl.obolibrary.org/obo/IAO_0000115> "Checksum of the digital object in any supported checksum format."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is intended to be used for specifying the checksum of FAIR digital objects."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> <http://www.w3.org/2000/01/rdf-schema#label> "has digital object checksum"@en .
+# 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006086
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> <http://purl.obolibrary.org/obo/IAO_0000115> "The preferred name for an entity."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> <http://www.w3.org/2000/01/rdf-schema#comment> "This property specifies the human-preferred lexical representation of an entity used by the Helmholtz KG user interface (UI) to display entities to users and for disambiguation purposes." .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> <http://www.w3.org/2000/01/rdf-schema#label> "prefName"@en .
+# 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006087
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purls.helmholtz-metadaten.de/hob/HDO_00000018> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> <http://www.w3.org/2000/01/rdf-schema#range> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#unionOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> <http://purl.obolibrary.org/obo/IAO_0000115> "Version of the digital object."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the version of the Digital Object itself, i.e., the actual content or data being described not the version of the FDO metadata record. This is very important to avoid semantic confusion."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> <http://www.w3.org/2000/01/rdf-schema#label> "has digital object version"@en .
 # 
 # 
 # 
@@ -1189,6 +1257,11 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000344"@en .
 <http://purl.obolibrary.org/obo/IAO_0000104> <http://www.w3.org/2000/01/rdf-schema#label> "plan specification"@en .
 # 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept"@en .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2004/02/skos/core#definition> "An idea or notion; a unit of thought."@en .
+# 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000002
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001049> .
@@ -1233,18 +1306,18 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000004
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000002> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid21 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid24 .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
-_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007015> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000001> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid24 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007015> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000001> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity which realizes a data source role."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000004> <http://purl.obolibrary.org/obo/IAO_0000115> "Eine Entität welche ene Rolle als Datenquelle einnimmt."@de .
@@ -1256,10 +1329,10 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000005
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
-_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000118> .
-_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000086> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000118> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000086> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://purl.obolibrary.org/obo/IAO_0000115> "A data set which has structuredness according to a data structure specification."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://purl.obolibrary.org/obo/IAO_0000115> "Daten, die entsprechend einer Datenstrukturspezifikation strukturiert sind."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://en.wikipedia.org/wiki/Data_structure> .
@@ -1313,45 +1386,45 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000009
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid26 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid33 .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
-_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid29 .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid32 .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
-_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid32 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002353> .
 _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002353> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000031> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
-_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid35 .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid35 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid38 .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
-_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002353> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000031> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002353> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://purl.obolibrary.org/obo/IAO_0000115> "A generally dependent contiuant which is the encoding of a signifier."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein generisches abhängiges Kontinuum, welches die  Kodierung eines Zeichen ist."@de .
@@ -1368,11 +1441,11 @@ _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <http://www.w3.org/2004/02/skos/core#note> "A sign, symbol, or other signifier which (1) represents an entity or its properties and (2) has been recorded in a manner that allows the transmission of meaning, e.g. as a number, a character in a known alphabet, a string with an assigned meaning, a known graphical symbol, a viewable image."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "Daten"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "data"@en .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid39 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> .
-_:genid39 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid39 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid39 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid42 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> .
+_:genid42 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid42 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000010
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1402,14 +1475,14 @@ _:genid39 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000012
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001049> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
-_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001017> .
-_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
-_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001018> .
-_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001017> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001018> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://purl.obolibrary.org/obo/IAO_0000115> "A system which (1) includes - as components - distributed, independent digital technologies and a human community which interact with them, (2) develops through interaction between its components, from which common norms and culture emerge, (3) is maintained by adaptive self-organisation of its parts as they become a part of or leave the system."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000012> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein System, welches (1) aus verteilten Komponenten, in Form von unabhängigen Technologien und einer Menschengemeinschaft, die mit ihnen interagieren, besteht, (2) sich durch Interaktion zwischen seinen Komponenten entwickelt, aus der gemeinsame Normen und eine gemeinsame Kultur entstehen, (3) durch Selbstorganisation der Komponenten erhalten und/oder an Veränderungen angepasst wird, während sie in das System aufgenommen werden oder dieses verlassen."@de .
@@ -1601,23 +1674,23 @@ _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000025
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid42 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid45 .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
-_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007022> .
-_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid45 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007022> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000031> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
-_:genid46 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007022> .
-_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007022> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2002/07/owl#disjointWith> <https://purls.helmholtz-metadaten.de/hob/HDO_00005003> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://purl.obolibrary.org/obo/IAO_0000115> "A generically dependent continuant which realises an information role."@en .
@@ -1642,41 +1715,41 @@ _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <http://www.w3.org/2004/02/skos/core#note> "Any sign, symbol, or data which reduces uncertainty about the existence, identity, or properties of (i.e. provides information about) an entity. Information is assumed to be accurate - inaccurate representation would be considered misinformation."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "Informationen"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "information"@en .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid47 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
-_:genid47 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid47 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-0065-0762> .
-_:genid47 <http://www.w3.org/2000/01/rdf-schema#comment> "Karl-Uwe Stucky" .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid48 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
-_:genid48 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid48 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-1008-4530> .
-_:genid48 <http://www.w3.org/2000/01/rdf-schema#comment> "Ahmad Zainul Ihsan" .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid49 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
-_:genid49 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid49 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-2209-9385> .
-_:genid49 <http://www.w3.org/2000/01/rdf-schema#comment> "Markus Kubin" .
 _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 _:genid50 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
 _:genid50 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid50 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid50 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid50 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-0065-0762> .
+_:genid50 <http://www.w3.org/2000/01/rdf-schema#comment> "Karl-Uwe Stucky" .
 _:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 _:genid51 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
 _:genid51 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid51 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-8941-954X> .
-_:genid51 <http://www.w3.org/2000/01/rdf-schema#comment> "Barbara Port" .
+_:genid51 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-1008-4530> .
+_:genid51 <http://www.w3.org/2000/01/rdf-schema#comment> "Ahmad Zainul Ihsan" .
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 _:genid52 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
 _:genid52 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid52 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0003-0575-2853> .
-_:genid52 <http://www.w3.org/2000/01/rdf-schema#comment> "Oonagh Mannix" .
+_:genid52 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-2209-9385> .
+_:genid52 <http://www.w3.org/2000/01/rdf-schema#comment> "Markus Kubin" .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
 _:genid53 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
 _:genid53 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid53 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0003-2804-688X> .
-_:genid53 <http://www.w3.org/2000/01/rdf-schema#comment> "Thomas Jejkal" .
+_:genid53 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid53 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid54 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
+_:genid54 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid54 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-8941-954X> .
+_:genid54 <http://www.w3.org/2000/01/rdf-schema#comment> "Barbara Port" .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid55 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
+_:genid55 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid55 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0003-0575-2853> .
+_:genid55 <http://www.w3.org/2000/01/rdf-schema#comment> "Oonagh Mannix" .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid56 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
+_:genid56 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid56 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0003-2804-688X> .
+_:genid56 <http://www.w3.org/2000/01/rdf-schema#comment> "Thomas Jejkal" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000026
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1905,11 +1978,11 @@ _:genid53 <http://www.w3.org/2000/01/rdf-schema#comment> "Thomas Jejkal" .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000038> <http://www.w3.org/2000/01/rdf-schema#label> "programmatischer Wert"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000038> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "programmatic values"@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000038> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "programmatische Werte"@de .
-_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid54 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000038> .
-_:genid54 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid54 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid54 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid57 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000038> .
+_:genid57 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid57 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid57 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000039
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2100,23 +2173,23 @@ _:genid54 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000101
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid55 .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid55 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid58 .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid57 .
-_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_10000047> .
-_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000001> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid58 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_10000047> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000001> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000002> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
-_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_10000047> .
-_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_10000047> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity which realizes the unit role."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://purl.obolibrary.org/obo/IAO_0000115> "Eine Entität, die die Einheiten-Rolle verwirklicht." .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "unit of measurement"@en .
@@ -2214,10 +2287,10 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
-_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> .
-_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000136> .
-_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000101> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/IAO_0000136> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://purl.obolibrary.org/obo/IAO_0000115> "Information welche die Einheit identifiziert, die verwendet wird, um die Größe einer Eigenschaft quantitativ auszudrücken."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000111> <http://purl.obolibrary.org/obo/IAO_0000115> "Information which identifies the unit used to quantiatively express the magnitude of some quality."@en .
@@ -2237,21 +2310,21 @@ _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000112
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
-_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid62 .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid62 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid65 .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
-_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001060> .
-_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid65 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001060> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002353> .
 _:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002353> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://purl.obolibrary.org/obo/IAO_0000115> "Data which encode a signifier of a quantity."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://purl.obolibrary.org/obo/IAO_0000115> "Daten, die ein Zeichen einer Menge, Größe oder eines Ausmaßes kodieren."@de .
@@ -2265,11 +2338,11 @@ _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <http://www.w3.org/2000/01/rdf-schema#label> "quantitative data"@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "quantitative Daten"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "quantitative data"@en .
-_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid66 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> .
-_:genid66 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid66 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid66 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid69 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> .
+_:genid69 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid69 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid69 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00000113
 <https://purls.helmholtz-metadaten.de/hob/HDO_00000113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2460,10 +2533,10 @@ _:genid66 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00000025> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
-_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> .
-_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000056> .
-_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000056> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://purl.obolibrary.org/obo/IAO_0000115> "Information which defines the requirements that must be met in order for an entity to be considered a member of a set or a type."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> <http://purl.obolibrary.org/obo/IAO_0000115> "Informationen, die Anforderungen definieren, die erfüllt sein müssen, damit eine Entität als Mitglied einer Gruppe oder eines Typs angesehen werden kann."@de .
@@ -2569,11 +2642,11 @@ _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> <http://www.w3.org/2000/01/rdf-schema#label> "encoding process"@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "Kodierungsprozesse"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "encoding processes"@en .
-_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid68 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
-_:genid68 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid68 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid68 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid71 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00001010> .
+_:genid71 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid71 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid71 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001011
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2656,10 +2729,10 @@ _:genid68 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001015
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000002> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
-_:genid69 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00006026> .
-_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00006026> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000428> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://purl.obolibrary.org/obo/IAO_0000115> "A continuant which realises a tool role."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001015> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein continuant, die eine Rolle als Werkzeug realisiert."@de .
@@ -2997,10 +3070,10 @@ _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001037
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000031> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
-_:genid70 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> .
-_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://purl.obolibrary.org/obo/IAO_0000115> "A generically dependent continuant which is composed always of multiple data instances, which are grouped intentionally according to one or more common characteristics."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein generisch abhängiges Kontinuum, welches immer aus mehreren Daten besteht, die aufgrund einer oder mehrerer gemeinsamer Merkmale mit Absicht zusammengestellt wurden."@de .
@@ -3016,11 +3089,11 @@ _:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <https://purls.helmholtz-metadaten.de/hob/HDO_00001024> "data sets"@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <https://purls.helmholtz-metadaten.de/hob/HDO_00001026> "Datensatz"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> <https://purls.helmholtz-metadaten.de/hob/HDO_00001026> "data set"@en .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid71 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> .
-_:genid71 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid71 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid71 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid74 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00001037> .
+_:genid74 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid74 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid74 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001038
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -3333,14 +3406,14 @@ _:genid71 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001061
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001011> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
-_:genid72 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/BFO_0000019> .
-_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
-_:genid73 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
-_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002234> .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/BFO_0000019> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002233> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002234> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://purl.obolibrary.org/obo/IAO_0000115> "A planned process during which an agent perceives some quality and creates a signifier thereof."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein geplanter Prozess, bei dem ein Akteur eine Eigenschaft wahrnimmt und davon ein Zeichen erschafft."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001061> <http://purl.obolibrary.org/obo/IAO_0000116> "this class could have subclass axioms added: has participant some agent. For this class agent needs to be defined or imported. This could also be done at the instance level where the nature of the agent can be identified more clearly (i.e. machine agent, human or else)."@en .
@@ -3363,10 +3436,10 @@ _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001067
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001066> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
-_:genid74 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> .
-_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000056> .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000056> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://purl.obolibrary.org/obo/IAO_0000115> "A model which is formalised in order to be executed or resolved."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein Modell, das formalisiert wird, um ausgeführt oder gelöst zu werden."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Computermodell Funktion"@de .
@@ -3379,10 +3452,10 @@ _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001068
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001011> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
-_:genid75 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> .
-_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
-_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001067> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://purl.obolibrary.org/obo/IAO_0000115> "A planned process during which a computational model is executed or resolved to estimate the existence, identity, properties or behaviour of an entity."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein geplanter Prozess, bei dem ein Computermodell ausgeführt oder aufgelöst wird, um die Existenz, die Identität, die Eigenschaften oder das Verhalten einer Entität abzuschätzen."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001068> <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "simulation"@en .
@@ -3393,15 +3466,15 @@ _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001069
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
-_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid76 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid78 .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00000042> .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid79 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00000112> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purls.helmholtz-metadaten.de/hob/HDO_00000042> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001069> <http://purl.obolibrary.org/obo/IAO_0000115> "Quantitative Daten, die das Ergebnis einer computergestützten Simulation sind."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001069> <http://purl.obolibrary.org/obo/IAO_0000115> "Quantitative data which are the output of computational modelling."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001069> <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "computation data"@en .
@@ -3434,10 +3507,10 @@ _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001072
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001011> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
-_:genid79 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/IAO_0000007> .
-_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002502> .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/IAO_0000007> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0002502> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://purl.obolibrary.org/obo/IAO_0000112> "providing a workshop to participants"@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://purl.obolibrary.org/obo/IAO_0000112> "providing space to storage"@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001072> <http://purl.obolibrary.org/obo/IAO_0000115> "A planned process during which an agent performs a task for another one."@de .
@@ -3492,18 +3565,18 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00001077
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001017> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
-_:genid80 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> .
-_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
-_:genid81 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000029> .
-_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
-_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
-_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001023> .
-_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
-_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000005> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00000029> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001023> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://purl.obolibrary.org/obo/IAO_0000115> "A digital system which comprises structured data, (meta)data, and software and which allows a computer to store, organise, and access structured data."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein digitales System welches aus strukturierten Daten, (Meta)daten und Software besteht und das es einem Computer erlaubt, strukturierte Daten zu speichern, zu organisieren und auf diese zuzugreifen."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00001077> <http://www.geneontology.org/formats/oboInOwl#source> <https://en.wikipedia.org/wiki/File_system> .
@@ -4143,23 +4216,23 @@ _:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00005003
 <https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid83 .
-_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid83 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid86 .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid85 .
-_:genid85 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00005002> .
-_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid86 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00005002> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000031> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
-_:genid87 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00005002> .
-_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00005002> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://purl.obolibrary.org/obo/IAO_0000115> "A generically dependent continuant which realises a misinformation role."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein generisch abhängiges Kontinuum, das eine Fehlinformationrolle umsetzt."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00005003> <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "Fehlinformation"@de .
@@ -4494,10 +4567,10 @@ _:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00006030
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000002> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
-_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00006031> .
-_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00006031> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://purl.obolibrary.org/obo/IAO_0000115> "An entity which realises a data storage role."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://purl.obolibrary.org/obo/IAO_0000115> "Eine Entität, die eine Datenspeicher-Rolle realisiert."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006030> <http://www.w3.org/2000/01/rdf-schema#label> "Datenspeicher"@de .
@@ -4557,6 +4630,27 @@ _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006085> <http://www.w3.org/2000/01/rdf-schema#label> "Kernel Informationsprofil"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006085> <http://www.w3.org/2000/01/rdf-schema#label> "kernel information profile"@en .
 # 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006088
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://purl.obolibrary.org/obo/IAO_0000115> "A concept which is used to denote the subject matter an entity is about."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://purl.obolibrary.org/obo/IAO_0000115> "A concept which is used to denote the subject matter of an entity and is part of a controlled vocabulary."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://purl.obolibrary.org/obo/IAO_0000115> "A concept which is used to signify the subject matter of an entity."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://purl.obolibrary.org/obo/IAO_0000115> "A concept within a controlled vocabulary which can be used as a topic of a Digital Object."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://www.w3.org/2000/01/rdf-schema#comment> "The class was introduced to be able to represent the topic that a digital object is about."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> <http://www.w3.org/2000/01/rdf-schema#label> "topic"@en .
+# 
+# https://purls.helmholtz-metadaten.de/hob/HDO_00006091
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00006088> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00002001> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006090> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> <http://purl.obolibrary.org/obo/IAO_0000115> "A topic which  belongs to a controlled vocabulary and represents the subject matter of a FAIR digital object."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> <http://www.w3.org/2000/01/rdf-schema#comment> "The class is introduced to be able to represent the topic that a digital object is about."@en .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> <http://www.w3.org/2000/01/rdf-schema#label> "FAIR digital object topic"@en .
+# 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00007001
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000040> .
@@ -4593,23 +4687,23 @@ _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00007004
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid89 .
-_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid89 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid92 .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid91 .
-_:genid91 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007003> .
-_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
-_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid93 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007003> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/BFO_0000031> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000031> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
-_:genid93 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007003> .
-_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
-_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00007003> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://purls.helmholtz-metadaten.de/hob/HDO_00006036> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://purl.obolibrary.org/obo/IAO_0000115> "A generically dependent continuant which realizes a signifier role."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein generisch abhängiges Kontinuum, das eine Signifier-Rolle umsetzt."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0002-3949-818X> .
@@ -4627,11 +4721,11 @@ _:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2000/01/rdf-schema#comment> "The term 'indicates' in the definition implies an interpretation process which will have as output either information or mis-information."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2000/01/rdf-schema#label> "Zeichen"@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> <http://www.w3.org/2000/01/rdf-schema#label> "signifier"@en .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid94 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
-_:genid94 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
-_:genid94 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
-_:genid94 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid98 <http://www.w3.org/2002/07/owl#annotatedSource> <https://purls.helmholtz-metadaten.de/hob/HDO_00007004> .
+_:genid98 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/contributor> .
+_:genid98 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://orcid.org/0000-0002-3949-818X> .
+_:genid98 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # 
 # https://purls.helmholtz-metadaten.de/hob/HDO_00007005
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -4885,10 +4979,10 @@ _:genid94 <http://www.w3.org/2000/01/rdf-schema#comment> "Jos Lehmann" .
 # https://purls.helmholtz-metadaten.de/hob/HDO_00007040
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00001011> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
-_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> .
-_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
-_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001005> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://purl.obolibrary.org/obo/IAO_0000115> "A planned process during which it is determined whether the type or properties of an entity conform to a specification."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://purl.obolibrary.org/obo/IAO_0000115> "Ein geplanter Prozess, bei dem festgestellt wird, ob der Typ oder die Eigenschaften einer Entität mit einer Spezifikation übereinstimmen."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "Überprüfung"@de .
@@ -4908,10 +5002,10 @@ _:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purls.helmholtz-metadaten.de/hob/HDO_00007041
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purls.helmholtz-metadaten.de/hob/HDO_00007040> .
-<https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
-_:genid96 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001036> .
-_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
-_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purls.helmholtz-metadaten.de/hob/HDO_00001036> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://purl.obolibrary.org/obo/IAO_0000115> "A validation during which it is determined whether some metadata record conforms to some metadata schema."@en .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://purl.obolibrary.org/obo/IAO_0000115> "Eine Validierung, bei der festgestellt wird, ob ein Metadatensatz einem Metadatenschema entspricht."@de .
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007041> <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "Metadatenüberprüfung"@de .
@@ -5045,6 +5139,16 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://orcid.org/0000-0003-0000-4784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://orcid.org/0000-0003-0000-4784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purls.helmholtz-metadaten.de/hob/HDO_00006023> .
 <https://orcid.org/0000-0003-0000-4784> <http://www.w3.org/2000/01/rdf-schema#label> "Pedro Videgain Barranco" .
+# 
+# https://orcid.org/0000-0003-2804-688X
+<https://orcid.org/0000-0003-2804-688X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0000-0003-2804-688X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purls.helmholtz-metadaten.de/hob/HDO_00006023> .
+<https://orcid.org/0000-0003-2804-688X> <http://www.w3.org/2000/01/rdf-schema#label> "Thomas Jejkal" .
+# 
+# https://orcid.org/0000-0003-3248-0056
+<https://orcid.org/0000-0003-3248-0056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0000-0003-3248-0056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purls.helmholtz-metadaten.de/hob/HDO_00006023> .
+<https://orcid.org/0000-0003-3248-0056> <http://www.w3.org/2000/01/rdf-schema#label> "Lucas Philip Lamparter" .
 # 
 # https://orcid.org/0009-0006-1229-4503
 <https://orcid.org/0009-0006-1229-4503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

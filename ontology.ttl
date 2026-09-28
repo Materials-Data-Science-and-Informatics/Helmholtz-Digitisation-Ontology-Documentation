@@ -1,28 +1,29 @@
-@prefix : <https://purls.helmholtz-metadaten.de/hob/hdo.owl#> .
+@prefix : <https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://purls.helmholtz-metadaten.de/hob/hdo.owl#> .
+@base <https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl#> .
 
-<https://purls.helmholtz-metadaten.de/hob/hdo.owl> rdf:type owl:Ontology ;
-                                                    owl:versionIRI <https://purls.helmholtz-metadaten.de/hob/hdo/releases/2025-03-20/hdo.owl> ;
-                                                    <http://purl.obolibrary.org/obo/IAO_0000116> "Main contributors to the HDO development are credited as dce:contributor in the ontology metadata. In addition, micro-contributions (to the definition of a specific term) by people that are not main contributors are credited as dce:contributor at the term-level."@en ;
-                                                    <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-6243-1728> ,
-                                                                                                  <https://orcid.org/0000-0001-9040-636X> ,
-                                                                                                  <https://orcid.org/0000-0002-4263-4234> ,
-                                                                                                  <https://orcid.org/0000-0003-0000-4784> ,
-                                                                                                  <https://orcid.org/0009-0006-1229-4503> ;
-                                                    <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0001-6243-1728> ,
-                                                                                              <https://orcid.org/0000-0001-7764-1517> ,
-                                                                                              <https://orcid.org/0000-0002-2818-5890> ,
-                                                                                              <https://orcid.org/0000-0002-4366-3088> ,
-                                                                                              <https://orcid.org/0000-0002-5149-603X> ;
-                                                    <http://purl.org/dc/terms/description> "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)."@en ;
-                                                    <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-                                                    <http://purl.org/dc/terms/title> "Helmholtz Digitisation Ontology" ;
-                                                    owl:versionInfo "2025-03-20" .
+<https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl> rdf:type owl:Ontology ;
+                                                             owl:versionIRI <https://purls.helmholtz-metadaten.de/hob/hdo/releases/2026-09-28/hdo-full.owl> ;
+                                                             <http://purl.obolibrary.org/obo/IAO_0000116> "Main contributors to the HDO development are credited as dce:contributor in the ontology metadata. In addition, micro-contributions (to the definition of a specific term) by people that are not main contributors are credited as dce:contributor at the term-level."@en ;
+                                                             <http://purl.org/dc/elements/1.1/contributor> <https://orcid.org/0000-0001-6243-1728> ,
+                                                                                                           <https://orcid.org/0000-0001-7764-1517> ,
+                                                                                                           <https://orcid.org/0000-0001-9040-636X> ,
+                                                                                                           <https://orcid.org/0000-0002-4263-4234> ,
+                                                                                                           <https://orcid.org/0000-0002-4366-3088> ,
+                                                                                                           <https://orcid.org/0000-0003-0000-4784> ,
+                                                                                                           <https://orcid.org/0000-0003-3248-0056> ,
+                                                                                                           <https://orcid.org/0009-0006-1229-4503> ;
+                                                             <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0002-2818-5890> ,
+                                                                                                       <https://orcid.org/0000-0002-5149-603X> ,
+                                                                                                       <https://orcid.org/0000-0003-2804-688X> ;
+                                                             <http://purl.org/dc/terms/description> "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)."@en ;
+                                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                             <http://purl.org/dc/terms/title> "Helmholtz Digitisation Ontology" ;
+                                                             owl:versionInfo "2026-09-28" .
 
 #################################################################
 #    Annotation properties
@@ -85,7 +86,7 @@ We don't have definitions of 'meaning' or 'expression' or 'property'. For 'refer
 
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  """@en ;
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."""@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON:Daniel Schober"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                                              rdfs:label "definition"@en .
@@ -140,9 +141,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 ###  http://purl.obolibrary.org/obo/IAO_0000233
 <http://purl.obolibrary.org/obo/IAO_0000233> rdf:type owl:AnnotationProperty ;
                                              <http://purl.obolibrary.org/obo/IAO_0000111> "term tracker item"@en ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000112> "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000112> "the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> ;
-                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An IRI or similar locator for a request or discussion of an ontology term."@en ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A URL for a request or discussion of an ontology term."@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000117> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en ;
                                              rdfs:label "term tracker item"@en .
@@ -274,6 +275,10 @@ Annotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http
 <http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
@@ -331,11 +336,21 @@ Annotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http
 
 
 ###  http://www.w3.org/2004/02/skos/core#altLabel
-<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty ;
+                                               rdfs:label "alternative label"@en ;
+                                               <http://www.w3.org/2004/02/skos/core#definition> "An alternative lexical label for a resource."@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:label "definition"@en ;
+                                                 <http://www.w3.org/2004/02/skos/core#definition> "A statement or formal explanation of the meaning of a concept."@en .
 
 
 ###  http://www.w3.org/2004/02/skos/core#note
-<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
+<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty ;
+                                           rdfs:label "note"@en ;
+                                           <http://www.w3.org/2004/02/skos/core#definition> "A general note, for any purpose."@en .
 
 
 ###  http://xmlns.com/foaf/0.1/homepage
@@ -618,7 +633,6 @@ Some currently missing phenomena that should be considered \"about\" are predica
                                             <http://purl.obolibrary.org/obo/IAO_0000117> <https://orcid.org/0000-0002-6601-2165> ;
                                             <http://purl.obolibrary.org/obo/IAO_0000118> "catalyzes" ,
                                                                                          "executes" ,
-                                                                                         "has" ,
                                                                                          "is catalyzing" ,
                                                                                          "is executing" ;
                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/valid_for_go_gp2term> ;
@@ -944,7 +958,7 @@ Some currently missing phenomena that should be considered \"about\" are predica
 ###  https://purls.helmholtz-metadaten.de/hob/HDO_00006068
 <https://purls.helmholtz-metadaten.de/hob/HDO_00006068> rdf:type owl:ObjectProperty ;
                                                         rdfs:domain <https://purls.helmholtz-metadaten.de/hob/HDO_00000013> ;
-                                                        rdfs:range <https://purls.helmholtz-metadaten.de/hob/HDO_00000009> ;
+                                                        rdfs:range <https://purls.helmholtz-metadaten.de/hob/HDO_00006088> ;
                                                         <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that describes one or more topics that a digital object is about."@en ;
                                                         rdfs:label "is about topic"@en .
 
@@ -962,6 +976,15 @@ Some currently missing phenomena that should be considered \"about\" are predica
                                                         rdfs:range <http://purl.obolibrary.org/obo/BFO_0000001> ;
                                                         <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that relates a digital object that contains data about an entity to that entity."@en ;
                                                         rdfs:label "Is metadata for"@en .
+
+
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006071
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006071> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <https://purls.helmholtz-metadaten.de/hob/HDO_00000013> ;
+                                                        rdfs:range <https://purls.helmholtz-metadaten.de/hob/HDO_00002011> ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that relates a digital object to the license that applies to the content of the Digital Object represented by the FDO, distinguishing it from the license of the FDO metadata itself."@en ;
+                                                        rdfs:comment "License here does not govern the metadata record (the FDO itself), but applies to the content of the Digital Object rather than the metadata."@en ;
+                                                        rdfs:label "has digital object license"@en .
 
 
 ###  https://purls.helmholtz-metadaten.de/hob/HDO_00006074
@@ -1014,6 +1037,24 @@ Some currently missing phenomena that should be considered \"about\" are predica
                                                         rdfs:label "is registered in"@en .
 
 
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006089
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006089> rdf:type owl:ObjectProperty ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "A relation that specifies a topic (from a controlled vocabulary) that a digital object is related to."@en ,
+                                                                                                     "A relation which specifies a topic (from a controlled vocabulary) that a digital object is related to."@en ,
+                                                                                                     "A relation which specifies that an entity is part of a group of entities."@en ,
+                                                                                                     "A relation which specifies that an entity is part of another entity or a set of entites."@en ;
+                                                        rdfs:label "is member of"@en .
+
+
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006090
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006090> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf <https://purls.helmholtz-metadaten.de/hob/HDO_00006089> ;
+                                                        rdfs:range <https://purls.helmholtz-metadaten.de/hob/HDO_00002008> ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "A relation which specifies the topic which  belongs to a controlled vocabulary and represents the subject matter of a FAIR digital object."@en ;
+                                                        rdfs:comment "The relation is introduced to specify the topic that a digital object is about."@en ;
+                                                        rdfs:label "is member of Vocabulary"@en .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -1048,6 +1089,37 @@ Some currently missing phenomena that should be considered \"about\" are predica
                                                         rdfs:range xsd:anyURI ;
                                                         <http://purl.obolibrary.org/obo/IAO_0000115> "A web-resolvable pointer to a preview, e.g., a low-resolution image, of some data."@en ;
                                                         rdfs:label "locationPreview"@en .
+
+
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006083
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006083> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf <https://purls.helmholtz-metadaten.de/hob/HDO_00006077> ;
+                                                        rdfs:domain <https://purls.helmholtz-metadaten.de/hob/HDO_00000018> ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "Checksum of the digital object in any supported checksum format."@en ;
+                                                        rdfs:comment "This property is intended to be used for specifying the checksum of FAIR digital objects."@en ;
+                                                        rdfs:label "has digital object checksum"@en .
+
+
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006086
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006086> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain owl:Thing ;
+                                                        rdfs:range xsd:string ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "The preferred name for an entity."@en ;
+                                                        rdfs:comment "This property specifies the human-preferred lexical representation of an entity used by the Helmholtz KG user interface (UI) to display entities to users and for disambiguation purposes." ;
+                                                        rdfs:label "prefName"@en .
+
+
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006087
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006087> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <https://purls.helmholtz-metadaten.de/hob/HDO_00000018> ;
+                                                        rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                     owl:unionOf ( xsd:integer
+                                                                                   xsd:string
+                                                                                 )
+                                                                   ] ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "Version of the digital object."@en ;
+                                                        rdfs:comment "Specifies the version of the Digital Object itself, i.e., the actual content or data being described not the version of the FDO metadata record. This is very important to avoid semantic confusion."@en ;
+                                                        rdfs:label "has digital object version"@en .
 
 
 #################################################################
@@ -1313,6 +1385,12 @@ Previous. An information content entity is a non-realizable information entity t
                                              <http://purl.obolibrary.org/obo/IAO_0000119> "OBI Plan and Planned Process branch"@en ,
                                                                                           "OBI_0000344"@en ;
                                              rdfs:label "plan specification"@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class ;
+                                              rdfs:label "Concept"@en ;
+                                              <http://www.w3.org/2004/02/skos/core#definition> "An idea or notion; a unit of thought."@en .
 
 
 ###  https://purls.helmholtz-metadaten.de/hob/HDO_00000002
@@ -4907,6 +4985,29 @@ Licensing is a legal matter, and this class and its definition are not authorita
                                                                    "kernel information profile"@en .
 
 
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006088
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006088> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "A concept which is used to denote the subject matter an entity is about."@en ,
+                                                                                                     "A concept which is used to denote the subject matter of an entity and is part of a controlled vocabulary."@en ,
+                                                                                                     "A concept which is used to signify the subject matter of an entity."@en ,
+                                                                                                     "A concept within a controlled vocabulary which can be used as a topic of a Digital Object."@en ;
+                                                        rdfs:comment "The class was introduced to be able to represent the topic that a digital object is about."@en ;
+                                                        rdfs:label "topic"@en .
+
+
+###  https://purls.helmholtz-metadaten.de/hob/HDO_00006091
+<https://purls.helmholtz-metadaten.de/hob/HDO_00006091> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://purls.helmholtz-metadaten.de/hob/HDO_00006088> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <https://purls.helmholtz-metadaten.de/hob/HDO_00006090> ;
+                                                                          owl:someValuesFrom <https://purls.helmholtz-metadaten.de/hob/HDO_00002001>
+                                                                        ] ;
+                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "A topic which  belongs to a controlled vocabulary and represents the subject matter of a FAIR digital object."@en ;
+                                                        rdfs:comment "The class is introduced to be able to represent the topic that a digital object is about."@en ;
+                                                        rdfs:label "FAIR digital object topic"@en .
+
+
 ###  https://purls.helmholtz-metadaten.de/hob/HDO_00007001
 <https://purls.helmholtz-metadaten.de/hob/HDO_00007001> rdf:type owl:Class ;
                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040> ;
@@ -5349,13 +5450,13 @@ Data validation is a critical aspect of data management. It ensures that data en
 
 
 ###  https://purls.helmholtz-metadaten.de/hob/hdo.owl#triple_specification
-:triple_specification rdf:type owl:Class ;
-                      rdfs:subClassOf <https://purls.helmholtz-metadaten.de/hob/HDO_00007025> ;
-                      <http://purl.obolibrary.org/obo/IAO_0000115> "A data structure specification which requires structured data to consist of three elements, that describe an entities (the subject) relation (the predicate) with another entity (the object) in a fixed order."@en ,
-                                                                   "Eine Datenstrukturspezifikation, die vorschreibt, dass strukturierte Daten aus drei Elementen bestehen müssen, die die Beziehung (Prädikat) zwischen einer Entität (Subjekt) und einer anderen Entität (Objekt) in einer festen Reihenfolge beschreiben."@de ;
-                      rdfs:comment "We note that a triple consist of a fixed order that is subject-predicate-object."@en ;
-                      rdfs:label "Tripel Spezifikation"@de ,
-                                 "triple specification"@en .
+<https://purls.helmholtz-metadaten.de/hob/hdo.owl#triple_specification> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <https://purls.helmholtz-metadaten.de/hob/HDO_00007025> ;
+                                                                        <http://purl.obolibrary.org/obo/IAO_0000115> "A data structure specification which requires structured data to consist of three elements, that describe an entities (the subject) relation (the predicate) with another entity (the object) in a fixed order."@en ,
+                                                                                                                     "Eine Datenstrukturspezifikation, die vorschreibt, dass strukturierte Daten aus drei Elementen bestehen müssen, die die Beziehung (Prädikat) zwischen einer Entität (Subjekt) und einer anderen Entität (Objekt) in einer festen Reihenfolge beschreiben."@de ;
+                                                                        rdfs:comment "We note that a triple consist of a fixed order that is subject-predicate-object."@en ;
+                                                                        rdfs:label "Tripel Spezifikation"@de ,
+                                                                                   "triple specification"@en .
 
 
 #################################################################
@@ -5472,6 +5573,18 @@ This interpretation is *not* the same as an at-all-times relation""" ;
 <https://orcid.org/0000-0003-0000-4784> rdf:type owl:NamedIndividual ,
                                                  <https://purls.helmholtz-metadaten.de/hob/HDO_00006023> ;
                                         rdfs:label "Pedro Videgain Barranco" .
+
+
+###  https://orcid.org/0000-0003-2804-688X
+<https://orcid.org/0000-0003-2804-688X> rdf:type owl:NamedIndividual ,
+                                                 <https://purls.helmholtz-metadaten.de/hob/HDO_00006023> ;
+                                        rdfs:label "Thomas Jejkal" .
+
+
+###  https://orcid.org/0000-0003-3248-0056
+<https://orcid.org/0000-0003-3248-0056> rdf:type owl:NamedIndividual ,
+                                                 <https://purls.helmholtz-metadaten.de/hob/HDO_00006023> ;
+                                        rdfs:label "Lucas Philip Lamparter" .
 
 
 ###  https://orcid.org/0009-0006-1229-4503

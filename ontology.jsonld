@@ -1,4 +1,13 @@
 [ {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001036"
+  } ]
+}, {
   "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
@@ -30,16 +39,26 @@
   } ]
 }, {
   "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
     }, {
-      "@id" : "_:genid23"
+      "@id" : "_:genid26"
     } ]
   } ]
 }, {
-  "@id" : "_:genid23",
+  "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
@@ -48,7 +67,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007015"
   } ]
 }, {
-  "@id" : "_:genid25",
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000086"
@@ -57,30 +76,11 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000118"
   } ]
 }, {
-  "@id" : "_:genid26",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
-    }, {
-      "@id" : "_:genid28"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid28",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid29"
-  } ]
-}, {
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
       "@id" : "_:genid31"
     } ]
@@ -89,32 +89,23 @@
   "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
-  } ]
-}, {
-  "@id" : "_:genid34",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid35"
+    "@id" : "_:genid32"
   } ]
 }, {
-  "@id" : "_:genid35",
+  "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
     }, {
-      "@id" : "_:genid37"
+      "@id" : "_:genid34"
     } ]
   } ]
 }, {
-  "@id" : "_:genid37",
+  "@id" : "_:genid34",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
@@ -123,7 +114,35 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
   } ]
 }, {
-  "@id" : "_:genid39",
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
+    }, {
+      "@id" : "_:genid40"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
+  } ]
+}, {
+  "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -138,7 +157,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid40",
+  "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -147,7 +166,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001017"
   } ]
 }, {
-  "@id" : "_:genid41",
+  "@id" : "_:genid44",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -156,35 +175,35 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001018"
   } ]
 }, {
-  "@id" : "_:genid42",
+  "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
-      "@id" : "_:genid44"
+      "@id" : "_:genid47"
     } ]
   } ]
 }, {
-  "@id" : "_:genid44",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022"
-  } ]
-}, {
-  "@id" : "_:genid46",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022"
-  } ]
-}, {
   "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007022"
+  } ]
+}, {
+  "@id" : "_:genid50",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Karl-Uwe Stucky"
@@ -199,7 +218,7 @@
     "@id" : "https://orcid.org/0000-0002-0065-0762"
   } ]
 }, {
-  "@id" : "_:genid48",
+  "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Ahmad Zainul Ihsan"
@@ -214,7 +233,7 @@
     "@id" : "https://orcid.org/0000-0002-1008-4530"
   } ]
 }, {
-  "@id" : "_:genid49",
+  "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Markus Kubin"
@@ -229,7 +248,7 @@
     "@id" : "https://orcid.org/0000-0002-2209-9385"
   } ]
 }, {
-  "@id" : "_:genid50",
+  "@id" : "_:genid53",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -244,7 +263,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid51",
+  "@id" : "_:genid54",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Barbara Port"
@@ -259,7 +278,7 @@
     "@id" : "https://orcid.org/0000-0002-8941-954X"
   } ]
 }, {
-  "@id" : "_:genid52",
+  "@id" : "_:genid55",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Oonagh Mannix"
@@ -274,7 +293,7 @@
     "@id" : "https://orcid.org/0000-0003-0575-2853"
   } ]
 }, {
-  "@id" : "_:genid53",
+  "@id" : "_:genid56",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Thomas Jejkal"
@@ -289,7 +308,7 @@
     "@id" : "https://orcid.org/0000-0003-2804-688X"
   } ]
 }, {
-  "@id" : "_:genid54",
+  "@id" : "_:genid57",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -304,35 +323,35 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid55",
+  "@id" : "_:genid58",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
     }, {
-      "@id" : "_:genid57"
+      "@id" : "_:genid60"
     } ]
   } ]
 }, {
-  "@id" : "_:genid57",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_10000047"
-  } ]
-}, {
-  "@id" : "_:genid59",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_10000047"
-  } ]
-}, {
   "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_10000047"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_10000047"
+  } ]
+}, {
+  "@id" : "_:genid63",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/IAO_0000136"
@@ -341,26 +360,26 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000101"
   } ]
 }, {
-  "@id" : "_:genid61",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002353"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "_:genid62"
+    "@id" : "_:genid65"
   } ]
 }, {
-  "@id" : "_:genid62",
+  "@id" : "_:genid65",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
     }, {
-      "@id" : "_:genid64"
+      "@id" : "_:genid67"
     } ]
   } ]
 }, {
-  "@id" : "_:genid64",
+  "@id" : "_:genid67",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
@@ -369,7 +388,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001060"
   } ]
 }, {
-  "@id" : "_:genid66",
+  "@id" : "_:genid69",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -382,39 +401,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@id" : "https://orcid.org/0000-0002-3949-818X"
-  } ]
-}, {
-  "@id" : "_:genid67",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007040"
-  } ]
-}, {
-  "@id" : "_:genid68",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Jos Lehmann"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
-    "@id" : "http://purl.org/dc/elements/1.1/contributor"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
-  } ],
-  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
-    "@id" : "https://orcid.org/0000-0002-3949-818X"
-  } ]
-}, {
-  "@id" : "_:genid69",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006026"
   } ]
 }, {
   "@id" : "_:genid7",
@@ -430,13 +416,46 @@
   "@id" : "_:genid70",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007040"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Jos Lehmann"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/contributor"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001010"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "https://orcid.org/0000-0002-3949-818X"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006026"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
   } ]
 }, {
-  "@id" : "_:genid71",
+  "@id" : "_:genid74",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -451,7 +470,7 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid72",
+  "@id" : "_:genid75",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002233"
@@ -460,7 +479,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
   } ]
 }, {
-  "@id" : "_:genid73",
+  "@id" : "_:genid76",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002234"
@@ -469,7 +488,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007004"
   } ]
 }, {
-  "@id" : "_:genid74",
+  "@id" : "_:genid77",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000056"
@@ -478,7 +497,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001068"
   } ]
 }, {
-  "@id" : "_:genid75",
+  "@id" : "_:genid78",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
@@ -487,7 +506,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001067"
   } ]
 }, {
-  "@id" : "_:genid76",
+  "@id" : "_:genid79",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -497,7 +516,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid79",
+  "@id" : "_:genid82",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0002502"
@@ -506,7 +525,7 @@
     "@id" : "http://purl.obolibrary.org/obo/IAO_0000007"
   } ]
 }, {
-  "@id" : "_:genid80",
+  "@id" : "_:genid83",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -515,7 +534,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000005"
   } ]
 }, {
-  "@id" : "_:genid81",
+  "@id" : "_:genid84",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -524,7 +543,7 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000029"
   } ]
 }, {
-  "@id" : "_:genid82",
+  "@id" : "_:genid85",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000051"
@@ -533,32 +552,14 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001023"
   } ]
 }, {
-  "@id" : "_:genid83",
+  "@id" : "_:genid86",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
-      "@id" : "_:genid85"
+      "@id" : "_:genid88"
     } ]
-  } ]
-}, {
-  "@id" : "_:genid85",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005002"
-  } ]
-}, {
-  "@id" : "_:genid87",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005002"
   } ]
 }, {
   "@id" : "_:genid88",
@@ -567,17 +568,16 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006031"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005002"
   } ]
 }, {
-  "@id" : "_:genid89",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
-    }, {
-      "@id" : "_:genid91"
-    } ]
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005002"
   } ]
 }, {
   "@id" : "_:genid91",
@@ -586,10 +586,29 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007003"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006031"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006090"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002001"
   } ]
 }, {
   "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+    }, {
+      "@id" : "_:genid95"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid95",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
@@ -598,7 +617,16 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007003"
   } ]
 }, {
-  "@id" : "_:genid94",
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006036"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007003"
+  } ]
+}, {
+  "@id" : "_:genid98",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Jos Lehmann"
@@ -613,22 +641,13 @@
     "@id" : "https://orcid.org/0000-0002-3949-818X"
   } ]
 }, {
-  "@id" : "_:genid95",
+  "@id" : "_:genid99",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001005"
-  } ]
-}, {
-  "@id" : "_:genid96",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/RO_0000057"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001036"
   } ]
 }, {
   "@id" : "http://protege.stanford.edu/plugins/owl/protege#defaultLanguage",
@@ -1601,7 +1620,7 @@
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
     "@language" : "en",
-    "@value" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
+    "@value" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
     "@language" : "en",
@@ -1828,14 +1847,14 @@
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000112" : [ {
     "@language" : "en",
-    "@value" : "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"
+    "@value" : "the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588"
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000114" : [ {
     "@id" : "http://purl.obolibrary.org/obo/IAO_0000125"
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
     "@language" : "en",
-    "@value" : "An IRI or similar locator for a request or discussion of an ontology term."
+    "@value" : "A URL for a request or discussion of an ontology term."
   } ],
   "http://purl.obolibrary.org/obo/IAO_0000117" : [ {
     "@language" : "en",
@@ -2362,8 +2381,6 @@
   }, {
     "@value" : "executes"
   }, {
-    "@value" : "has"
-  }, {
     "@value" : "is catalyzing"
   }, {
     "@value" : "is executing"
@@ -2561,6 +2578,9 @@
   "@id" : "http://purl.org/dc/terms/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -2618,11 +2638,49 @@
   "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An idea or notion; a unit of thought."
+  } ]
+}, {
   "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "alternative label"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An alternative lexical label for a resource."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "definition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A statement or formal explanation of the meaning of a concept."
+  } ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#note",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A general note, for any purpose."
+  } ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/homepage",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -2720,6 +2778,24 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Pedro Videgain Barranco"
+  } ]
+}, {
+  "@id" : "https://orcid.org/0000-0003-2804-688X",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006023"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thomas Jejkal"
+  } ]
+}, {
+  "@id" : "https://orcid.org/0000-0003-3248-0056",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006023"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lucas Philip Lamparter"
   } ]
 }, {
   "@id" : "https://orcid.org/0009-0006-1229-4503",
@@ -2912,7 +2988,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid21"
+    "@id" : "_:genid24"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000005",
@@ -2943,7 +3019,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001037"
   }, {
-    "@id" : "_:genid25"
+    "@id" : "_:genid28"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000006",
@@ -3112,10 +3188,10 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid34"
+    "@id" : "_:genid37"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid26"
+    "@id" : "_:genid29"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -3225,9 +3301,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001049"
   }, {
-    "@id" : "_:genid40"
+    "@id" : "_:genid43"
   }, {
-    "@id" : "_:genid41"
+    "@id" : "_:genid44"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013",
@@ -3819,13 +3895,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid46"
+    "@id" : "_:genid49"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00005003"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid42"
+    "@id" : "_:genid45"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -5049,10 +5125,10 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid59"
+    "@id" : "_:genid62"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid55"
+    "@id" : "_:genid58"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000102",
@@ -5366,7 +5442,7 @@
   }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   }, {
-    "@id" : "_:genid60"
+    "@id" : "_:genid63"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000112",
@@ -5407,7 +5483,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
   }, {
-    "@id" : "_:genid61"
+    "@id" : "_:genid64"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -5962,7 +6038,7 @@
   }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000025"
   }, {
-    "@id" : "_:genid67"
+    "@id" : "_:genid70"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -6533,7 +6609,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid69"
+    "@id" : "_:genid72"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -7548,7 +7624,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid70"
+    "@id" : "_:genid73"
   } ],
   "https://purls.helmholtz-metadaten.de/hob/HDO_00001024" : [ {
     "@language" : "de",
@@ -8506,9 +8582,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid72"
+    "@id" : "_:genid75"
   }, {
-    "@id" : "_:genid73"
+    "@id" : "_:genid76"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001066",
@@ -8575,7 +8651,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001066"
   }, {
-    "@id" : "_:genid74"
+    "@id" : "_:genid77"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001068",
@@ -8608,7 +8684,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid75"
+    "@id" : "_:genid78"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001069",
@@ -8639,7 +8715,7 @@
     "@value" : "simulation data"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid76"
+    "@id" : "_:genid79"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001070",
@@ -8730,7 +8806,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid79"
+    "@id" : "_:genid82"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001073",
@@ -8877,11 +8953,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001017"
   }, {
-    "@id" : "_:genid80"
+    "@id" : "_:genid83"
   }, {
-    "@id" : "_:genid81"
+    "@id" : "_:genid84"
   }, {
-    "@id" : "_:genid82"
+    "@id" : "_:genid85"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001078",
@@ -10759,10 +10835,10 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid87"
+    "@id" : "_:genid90"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid83"
+    "@id" : "_:genid86"
   } ],
   "http://www.w3.org/2004/02/skos/core#note" : [ {
     "@language" : "en",
@@ -11671,7 +11747,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
   }, {
-    "@id" : "_:genid88"
+    "@id" : "_:genid91"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006031",
@@ -12165,7 +12241,7 @@
     "@value" : "is about topic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000009"
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006088"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006069",
@@ -12196,6 +12272,27 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006071",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that relates a digital object to the license that applies to the content of the Digital Object represented by the FDO, distinguishing it from the license of the FDO metadata itself."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "License here does not govern the metadata record (the FDO itself), but applies to the content of the Digital Object rather than the metadata."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000013"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital object license"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002011"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006072",
@@ -12401,6 +12498,27 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001049"
   } ]
 }, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006083",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Checksum of the digital object in any supported checksum format."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property is intended to be used for specifying the checksum of FAIR digital objects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000018"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital object checksum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006077"
+  } ]
+}, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006084",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
@@ -12445,6 +12563,135 @@
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001036"
   }, {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006084"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006086",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "The preferred name for an entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This property specifies the human-preferred lexical representation of an entity used by the Helmholtz KG user interface (UI) to display entities to users and for disambiguation purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prefName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006087",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "Version of the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies the version of the Digital Object itself, i.e., the actual content or data being described not the version of the FDO metadata record. This is very important to avoid semantic confusion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00000018"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital object version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006088",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A concept which is used to denote the subject matter an entity is about."
+  }, {
+    "@language" : "en",
+    "@value" : "A concept which is used to denote the subject matter of an entity and is part of a controlled vocabulary."
+  }, {
+    "@language" : "en",
+    "@value" : "A concept which is used to signify the subject matter of an entity."
+  }, {
+    "@language" : "en",
+    "@value" : "A concept within a controlled vocabulary which can be used as a topic of a Digital Object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class was introduced to be able to represent the topic that a digital object is about."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006089",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation that specifies a topic (from a controlled vocabulary) that a digital object is related to."
+  }, {
+    "@language" : "en",
+    "@value" : "A relation which specifies a topic (from a controlled vocabulary) that a digital object is related to."
+  }, {
+    "@language" : "en",
+    "@value" : "A relation which specifies that an entity is part of a group of entities."
+  }, {
+    "@language" : "en",
+    "@value" : "A relation which specifies that an entity is part of another entity or a set of entites."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is member of"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A relation which specifies the topic which  belongs to a controlled vocabulary and represents the subject matter of a FAIR digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation is introduced to specify the topic that a digital object is about."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is member of Vocabulary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00002008"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006089"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006091",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A topic which  belongs to a controlled vocabulary and represents the subject matter of a FAIR digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class is introduced to be able to represent the topic that a digital object is about."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FAIR digital object topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00006088"
+  }, {
+    "@id" : "_:genid92"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007001",
@@ -12604,10 +12851,10 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
   }, {
-    "@id" : "_:genid93"
+    "@id" : "_:genid97"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid89"
+    "@id" : "_:genid93"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007005",
@@ -13326,7 +13573,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00001011"
   }, {
-    "@id" : "_:genid95"
+    "@id" : "_:genid99"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007041",
@@ -13359,7 +13606,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007040"
   }, {
-    "@id" : "_:genid96"
+    "@id" : "_:genid100"
   } ]
 }, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007042",
@@ -13784,51 +14031,6 @@
     "@value" : "unit role"
   } ]
 }, {
-  "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo.owl",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
-    "@language" : "en",
-    "@value" : "Main contributors to the HDO development are credited as dce:contributor in the ontology metadata. In addition, micro-contributions (to the definition of a specific term) by people that are not main contributors are credited as dce:contributor at the term-level."
-  } ],
-  "http://purl.org/dc/elements/1.1/contributor" : [ {
-    "@id" : "https://orcid.org/0000-0001-6243-1728"
-  }, {
-    "@id" : "https://orcid.org/0000-0001-9040-636X"
-  }, {
-    "@id" : "https://orcid.org/0000-0002-4263-4234"
-  }, {
-    "@id" : "https://orcid.org/0000-0003-0000-4784"
-  }, {
-    "@id" : "https://orcid.org/0009-0006-1229-4503"
-  } ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@id" : "https://orcid.org/0000-0001-6243-1728"
-  }, {
-    "@id" : "https://orcid.org/0000-0001-7764-1517"
-  }, {
-    "@id" : "https://orcid.org/0000-0002-2818-5890"
-  }, {
-    "@id" : "https://orcid.org/0000-0002-4366-3088"
-  }, {
-    "@id" : "https://orcid.org/0000-0002-5149-603X"
-  } ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@language" : "en",
-    "@value" : "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)."
-  } ],
-  "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://purl.org/dc/terms/title" : [ {
-    "@value" : "Helmholtz Digitisation Ontology"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/releases/2025-03-20/hdo.owl"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "2025-03-20"
-  } ]
-}, {
   "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo.owl#triple_specification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
@@ -13851,5 +14053,52 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://purls.helmholtz-metadaten.de/hob/HDO_00007025"
+  } ]
+}, {
+  "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/hdo-full.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.obolibrary.org/obo/IAO_0000116" : [ {
+    "@language" : "en",
+    "@value" : "Main contributors to the HDO development are credited as dce:contributor in the ontology metadata. In addition, micro-contributions (to the definition of a specific term) by people that are not main contributors are credited as dce:contributor at the term-level."
+  } ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@id" : "https://orcid.org/0000-0001-6243-1728"
+  }, {
+    "@id" : "https://orcid.org/0000-0001-7764-1517"
+  }, {
+    "@id" : "https://orcid.org/0000-0001-9040-636X"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-4263-4234"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-4366-3088"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-0000-4784"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-3248-0056"
+  }, {
+    "@id" : "https://orcid.org/0009-0006-1229-4503"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@id" : "https://orcid.org/0000-0002-2818-5890"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-5149-603X"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-2804-688X"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Helmholtz Digitisation Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://purls.helmholtz-metadaten.de/hob/hdo/releases/2026-09-28/hdo-full.owl"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "2026-09-28"
   } ]
 } ]
